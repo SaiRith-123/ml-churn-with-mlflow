@@ -1,0 +1,24 @@
+artifact_path: file:C:/Users/srisa/Desktop/Projects/DevSecMLops/no 1, checking accuracy/mlruns/1/models/m-8c8bbf58c5c84f59a06c7209b5f381f0/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.12
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.16.1
+model_id: m-8c8bbf58c5c84f59a06c7209b5f381f0
+model_size_bytes: 9124
+model_uuid: m-8c8bbf58c5c84f59a06c7209b5f381f0
+prompts: null
+run_id: 86e14c31d4a84b8797cf3f5829c2c97b
+utc_time_created: '2026-10-06 12:19:36.385681'
